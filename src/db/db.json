@@ -2,52 +2,81 @@
   "users": [
     {
       "id": 1,
-      "name": "Admin User",
-      "email": "admin@example.com",
-      "password": "adminpassword",
+      "name": "Adarsh Tiwari",
+      "email": "adarshtiwari@gmail.com",
+      "password": "adarsh123",
       "role": "admin"
     },
     {
       "id": 2,
-      "name": "Employee One",
-      "email": "employee1@example.com",
-      "password": "password1",
+      "name": "Sam",
+      "email": "sam123@gmail.com",
+      "password": "pass1",
       "role": "employee"
     },
     {
       "id": 3,
-      "name": "Employee Two",
-      "email": "employee2@example.com",
-      "password": "password2",
+      "name": "Jack",
+      "email": "jack123@gmail.com",
+      "password": "pass2",
       "role": "employee"
     },
     {
-      "name": "Employee Three",
-      "email": "employee3@example.com",
-      "password": "password3",
+      "name": "Elie",
+      "email": "elie@gmail.com",
+      "password": "pass3",
       "role": "employee",
       "id": 4
+    },
+    {
+      "name": "Shyam",
+      "email": "shyamtiwari@gmail.com",
+      "password": "123",
+      "role": "employee",
+      "id": 5
+    },
+    {
+      "name": "Aman",
+      "email": "aman@gmail.com",
+      "password": "456",
+      "role": "employee",
+      "id": 6
+    },
+    {
+      "name": "Gayatri",
+      "email": "gayatri1@gmail.com",
+      "password": "321",
+      "role": "admin",
+      "id": 7
     }
   ],
   "scrums": [
     {
       "id": 1,
-      "name": "Scrum Team A"
+      "name": "Team Sam"
     },
     {
       "id": 2,
-      "name": "Scrum Team B"
+      "name": "Team Jack"
     },
     {
-      "name": "Scrum Team C",
+      "name": "Team Elie",
       "id": 3
+    },
+    {
+      "name": "Team Shyam",
+      "id": 4
+    },
+    {
+      "name": "Team Aman",
+      "id": 5
     }
   ],
   "tasks": [
     {
       "id": 1,
-      "title": "Task One",
-      "description": "Description for Task One",
+      "title": "Meeting",
+      "description": "Handling Meeting",
       "status": "Done",
       "scrumId": 1,
       "assignedTo": 2,
@@ -72,8 +101,8 @@
     },
     {
       "id": 2,
-      "title": "Task Two",
-      "description": "Description for Task Two",
+      "title": "Convey",
+      "description": "Convey Message to all",
       "status": "In Progress",
       "scrumId": 2,
       "assignedTo": 3,
@@ -89,18 +118,54 @@
       ]
     },
     {
-      "title": "Task 3",
-      "description": "Description for Task 3",
-      "status": "In Progress",
+      "title": "Team lead",
+      "description": "Leading the team",
+      "status": "Done",
       "scrumId": 3,
-      "assignedTo": 3,
+      "assignedTo": 4,
       "history": [
         {
           "status": "In Progress",
           "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
         }
       ],
       "id": 3
+    },
+    {
+      "title": "sports manager",
+      "description": "manage all sports activities",
+      "status": "Done",
+      "scrumId": 4,
+      "assignedTo": 5,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "Information gathering",
+      "description": "Responsible to gather the information",
+      "status": "In Progress",
+      "scrumId": 5,
+      "assignedTo": 6,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        }
+      ],
+      "id": 5
     }
   ]
 }

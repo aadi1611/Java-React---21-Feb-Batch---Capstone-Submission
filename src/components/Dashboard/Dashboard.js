@@ -64,7 +64,7 @@ const Dashboard = () => {
                 description: newTaskDescription,
                 status: newTaskStatus,
                 scrumId: newScrum.id,
-                assignedTo: newTaskAssignedTo,
+                assignedTo: Number(newTaskAssignedTo),
                 history: [
                     {
                         status: newTaskStatus,

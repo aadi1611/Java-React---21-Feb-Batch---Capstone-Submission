@@ -1,9 +1,9 @@
 {
-  "name": "demo-template",
-  "version": "3.2.1",
-  "description": "CoreUI React Open Source Bootstrap 4 Admin Template",
+  "name": "Capstone Project Agile-Track-System",
+  "version": "1.0.0",
+  "description": "A customized React Admin Dashboard based on CoreUI and Bootstrap 4",
   "author": {
-    "name": "yaksha"
+    "name": "Adarsh Tiwari"
   },
   "homepage": ".",
   "copyright": "Copyright 2017-2020 creativeLabs Łukasz Holeczek",
@@ -53,13 +53,13 @@
   "scripts": {
     "json-start": "npx json-server --watch src/db/db.json --port 4000",
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-  "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "jest": "react-scripts test --detectOpenHandles",
     "test": "react-scripts test --detectOpenHandles --reporters=./custom-reporter.js",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
     "eject": "react-scripts eject",
-    "changelog": "auto-changelog --starting-version 3.0.0 --commit-limit false --hide-credit"
+    "changelog": "auto-changelog --starting-version 1.0.0 --commit-limit false --hide-credit"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -72,7 +72,7 @@
   ],
   "jest": {
     "collectCoverageFrom": [
-      "src/*/.{js,jsx}",
+      "src/**/*.{js,jsx}",
       "!**/*index.js",
       "!src/serviceWorker.js",
       "!src/polyfill.js"
